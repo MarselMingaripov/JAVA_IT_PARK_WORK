@@ -1,13 +1,19 @@
 import java.util.Scanner;
 
 class Program{
-	public static void main(String[] args) {
-		
+
+	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Vvedite dliny storon");
+		int max = 0;
+		int q = 1;
+		System.out.println("Vvedite kolichtsto strok");
 		int a = scanner.nextInt();
-		int b = a;
+		System.out.println("Vvedite kolichtsto stolbcov");
+		int b = scanner.nextInt();
+		int c = 0;
+		int d = 0;
+
 		int mas[][] = new int[a][b];
 
 		for (a = 0; a < mas.length; a++){
@@ -17,25 +23,23 @@ class Program{
 			}
 		}
 		System.out.println();
+
 		for (a = 0; a < mas.length; a++){
 			for (b = 0; b < mas[a].length; b++){
-				System.out.print(mas[a][b] + "    ");
+				System.out.print(mas[a][b] + " ");
 			}
 			System.out.println();
 		}
-		for (a = 0; a < mas.length; a++){
-			for (b = 0; b < mas[a].length; b++){
-				if (a == b){
-					mas[a][b] = 0;
+		
+		for (d = 0; d < b; d++){
+			for (c = 0; c < a; c++){
+				if (mas[c][d] > max){
+				max = mas[c][d];
 				}
 			}
-		}
-		System.out.println();
-		for (a = 0; a < mas.length; a++){
-			for (b = 0; b < mas[a].length; b++){
-				System.out.print(mas[a][b] + "   ");	
-			}
-			System.out.println();
-		}					
+			System.out.println(max + " - max znach v stolbce " + q);
+		max = 0;
+		q++;
+		}	
 	}
 }
