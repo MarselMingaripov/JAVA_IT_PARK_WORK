@@ -1,0 +1,15 @@
+INSERT INTO auto(model, cost) VALUES('Toyota Corolla', 1500);
+INSERT INTO auto(model, cost) VALUES('Infinity FX35', 2000);
+INSERT INTO auto(model, cost) VALUES('Chevrolet Aveo', 2000);
+INSERT INTO auto(model, cost) VALUES('Jaguar', 10000);
+INSERT INTO auto(model, cost) VALUES('BMW X5', 3500);
+INSERT INTO auto(model, cost) VALUES('Ford Focus', 2400);
+INSERT INTO auto(model, cost) VALUES('VW Passat', 3500);
+INSERT INTO auto(model, cost) VALUES('KIA Rio', 2600);
+INSERT INTO auto(model, cost) VALUES('OPEL'Astra, 3700);
+INSERT INTO auto(model, cost) VALUES('Honda Civic', 3700);
+INSERT INTO auto(model, cost) VALUES('Mercedes Benz', 5700);
+INSERT INTO auto(model, cost) VALUES('Hyundai Sonata', 3800);
+INSERT INTO auto(model, cost) VALUES('Kia Ceed', 3800);
+INSERT INTO auto(model, cost) VALUES('Subaru Forester', 4900);
+INSERT INTO auto(model, cost) VALUES('Toyota Yaris', 3100);

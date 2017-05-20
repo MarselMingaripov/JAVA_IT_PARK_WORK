@@ -1,0 +1,5 @@
+CREATE TABLE auto (
+id SERIAL PRIMARY KEY,
+model VARCHAR(20),
+cost VARCHAR(20000)
+);
