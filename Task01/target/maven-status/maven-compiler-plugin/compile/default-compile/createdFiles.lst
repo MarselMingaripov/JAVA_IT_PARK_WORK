@@ -1,0 +1,12 @@
+com\iNovus\service\SecurityService.class
+com\iNovus\model\Role.class
+com\iNovus\dao\UserDao.class
+com\iNovus\dao\RoleDao.class
+com\iNovus\service\UserService.class
+com\iNovus\Application.class
+com\iNovus\config\SecurityConfig.class
+com\iNovus\model\Authority.class
+com\iNovus\model\UserRole.class
+com\iNovus\service\UserServiceImpl.class
+com\iNovus\controller\HomeController.class
+com\iNovus\model\User.class
